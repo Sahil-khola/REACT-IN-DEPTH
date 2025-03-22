@@ -41,6 +41,7 @@ const Meal = () => {
           justifyContent: "space-around",
           flexWrap: "wrap",
           margin: "10px",
+          
         }}
       >
         <button onClick={() => setFood("indian")}>Indian</button>

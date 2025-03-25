@@ -35,7 +35,7 @@ const Product = () => {
         {arr.map((item) => (
           <div key={item.id}>
             <li>
-              <Link to={`/course/${item.course_name}`}>{item.course_name}</Link>
+              <Link to={`/course/${item.id}`}>{item.course_name}</Link>
             </li>
           </div>
         ))}
